@@ -50,15 +50,23 @@
         background-size: cover;
         background-position: center center;
 
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
 
-        border-radius: 20px 0px 0px 20px;
+        border-radius: 0px 20px 20px 0px;
     }
 
     section#login > div#formulario{
-        float: rigth;
-        width: 100%;
+        float: left;
+        width: 50%;
+    }
+
+    div#formulario > h1{
+        font-size: 2em;
+    }
+
+    div#formulario > p{
+        font-size: 1.2em;
     }
 }
